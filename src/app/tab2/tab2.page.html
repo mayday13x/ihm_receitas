@@ -28,8 +28,8 @@
         </ion-card>
       </ion-col>
       <ion-col size="12">
-        <ion-card routerLink="#">
-          <img alt="Silhouette of mountains" src="/assets/images/pesc.png" />
+        <ion-card (click)="goToPescada()">
+          <img alt="Pescada Poveira" src="/assets/images/pesc.png" />
           <ion-card-header>
             <ion-card-title>Pescada à Poveira</ion-card-title>
           </ion-card-header>
@@ -43,14 +43,16 @@
     </ion-row>
     <ion-row>
       <ion-col size="12">
-        <ion-card routerLink="#">
-          <img alt="Silhouette of mountains" src="/assets/images/arroz_mar.png" />
+        <ion-card (click)="goToMarisco()">
+          <img alt="Arroz Marisco" src="/assets/images/arroz_mar.png" />
           <ion-card-header>
             <ion-card-title>Arroz de Marisco</ion-card-title>
           </ion-card-header>
         
           <ion-card-content>
-<!--Descricao Aqui -->
+            Com arroz carolino, patas de sapateira, mexilhão, marisco, camarões, amêijoas,
+             e muito mais, prepare uma refeição deliciosa! Aprenda a fazer a receita de arroz de marisco,
+              gosta? Então vamos cozinhar!
           </ion-card-content>
         </ion-card>
       </ion-col>

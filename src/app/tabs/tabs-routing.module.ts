@@ -24,6 +24,13 @@ const routes: Routes = [
         loadChildren: () => import('../rabanadas/rabanadas.module').then( m => m.RabanadasPageModule)
       },
       {
+        path: 'pescada',
+        loadChildren: () => import('../pescada/pescada.module').then( m => m.PescadaPageModule)
+      },  {
+        path: 'marisco',
+        loadChildren: () => import('../marisco/marisco.module').then( m => m.MariscoPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

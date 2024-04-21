@@ -9,6 +9,14 @@ const routes: Routes = [
   {
     path: 'rabanadas',
     loadChildren: () => import('./rabanadas/rabanadas.module').then( m => m.RabanadasPageModule)
+  },
+  {
+    path: 'pescada',
+    loadChildren: () => import('./pescada/pescada.module').then( m => m.PescadaPageModule)
+  },
+  {
+    path: 'marisco',
+    loadChildren: () => import('./marisco/marisco.module').then( m => m.MariscoPageModule)
   }
 
 ];

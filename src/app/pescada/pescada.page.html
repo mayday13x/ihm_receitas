@@ -1,0 +1,112 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="app">
+    <ion-title class="ion-text-center">Pescada à Poveira</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Pescada à Poveira</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+ <img src="/assets/images/pesc.png" class="receita-pic" alt="Miguel" style="width:100%">
+
+  <div class="history-intro">
+    <ion-title class="ion-text-center ion-padding-top">Contextualização Histórica</ion-title>
+    <p>
+      A Pescada à Poveira, como o próprio nome indica, é um prato tradicional da Póvoa de Varzim, cidade piscatória do norte de Portugal.
+      Acredita-se que as origens da Pescada à Poveira remontem aos séculos XVIII ou XIX, quando os pescadores da Póvoa de Varzim aproveitavam os ingredientes 
+      disponíveis para criar pratos nutritivos e saborosos. A pescada, abundante no mar local, era combinada com batatas, ovos e legumes, ingredientes básicos e acessíveis à população.
+      Com o passar do tempo, a Pescada à Poveira foi ganhando notoriedade, tornando-se um símbolo da gastronomia poveira. A receita original sofreu algumas adaptações, 
+      com a adição de ingredientes como cebola, salsa e colorau, mas a essência do prato manteve-se intacta.
+    <p>
+  </div>
+
+
+  <div class="ion-text-center info-receita"><h5>Tempo Preparação: 70 minutos</h5></div>
+  <div class="ion-text-center info-receita"><h5>Tempo Cozedura: 1 hora e 10 minutos</h5></div>
+  <div class="ion-text-center info-receita">4/5 pessoas</div>
+  <ion-accordion-group expand="inset" [value]="['first']">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="fast-food-outline"></ion-icon> Ingredientes </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+
+        <ion-list>
+          <ion-item>
+            <ion-label>Postas de pescada grandes</ion-label>
+            <ion-badge color="white">4</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Pão caseiro</ion-label>
+            <ion-badge color="white">1</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Batatas</ion-label>
+            <ion-badge color="white">1 KG</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Cebola</ion-label>
+            <ion-badge color="white">1</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Ovos M</ion-label>
+            <ion-badge color="white">4</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Azeite extravirgem</ion-label>
+            <ion-badge color="white">150 ml </ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Vinagre branco</ion-label>
+            <ion-badge color="white">1 colher (sopa)</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Colorau</ion-label>
+            <ion-badge color="white">1 colher (chá)</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Folhas de louro</ion-label>
+            <ion-badge color="white">2</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Sal e pimenta</ion-label>
+            <ion-badge color="white">q.b.</ion-badge>
+          </ion-item>
+        </ion-list>
+
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="hand-right-outline"></ion-icon> Preparação</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+          <p><b>1.</b> Descasque as batatas, corte-as em gomos e coza-os, juntamente com os ovos e os grelos, em água com sal. Escorra tudo e reserve. Leve ao lume uma frigideira com um fio do azeite e os dentes de alho picados, junte os grelos e deixe saltear.</p>
+          <p><b>2.</b> Leve ao lume um tacho com água temperada com sal e pimenta e deixe levantar fervura. Adicione o louro e as postas de pescada e deixe cozer. Escorra e reserve..</p>
+          <p><b>3.</b> Descasque e pique finamente a cebola e aloure-a num tacho com o restante azeite e o colorau. Adicione o vinagre, tempere com sal e pimenta e retire do lume.</p>
+          <p><b>4.</b> Corte o pão em fatias e disponha-as num prato de barro grande e fundo. Regue-as com um pouco do molho anterior, cubra com as postas de pescada e, nos intervalos, coloque batatas, os grelos e os ovos cortados em rodelas. Regue com o restante molho e sirva.</p>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third" [disabled]="true">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="analytics-outline"></ion-icon> Dicas e Truques</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+        
+       <p><b>Variações:</b> Raspas de limão, laranja, noz-moscada.</p>
+       <p><b>Acompanhamento:</b> Café ou chá quente.</p>
+
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
+
+
+</ion-content>

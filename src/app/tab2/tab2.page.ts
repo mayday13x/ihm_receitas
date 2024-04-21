@@ -14,4 +14,12 @@ export class Tab2Page {
     this.navCtrl.navigateForward('rabanadas');
   }
 
+  goToPescada() {
+    this.navCtrl.navigateForward('pescada');
+  }
+  
+  goToMarisco() {
+    this.navCtrl.navigateForward('marisco');
+  }
+
 }

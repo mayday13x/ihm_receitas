@@ -1,0 +1,124 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="app">
+    <ion-title class="ion-text-center">Arroz de Marisco</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Arroz de Marisco</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+ <img src="/assets/images/arroz_mar.png" class="receita-pic" alt="Miguel" style="width:100%">
+
+  <div class="history-intro">
+    <ion-title class="ion-text-center ion-padding-top">Contextualização Histórica</ion-title>
+    <p>
+      Apesar de não ser original da localidade é um prato muito apreciado na região
+       devido à sua proximidade com o mar e á sua forte comunidade piscatória.
+    <p>
+  </div>
+
+
+  <div class="ion-text-center info-receita"><h5>Tempo Preparação: 50 minutos</h5></div>
+  <div class="ion-text-center info-receita">5 pessoas</div>
+  <ion-accordion-group expand="inset" [value]="['first']">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="fast-food-outline"></ion-icon> Ingredientes </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+
+        <ion-list>
+          <ion-item>
+            <ion-label>Arroz carolino</ion-label>
+            <ion-badge color="white">400 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Patas de sapateira</ion-label>
+            <ion-badge color="white">300 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Mexilhão com meia concha</ion-label>
+            <ion-badge color="white">300 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Miolo de marisco</ion-label>
+            <ion-badge color="white">300 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Amêijoas</ion-label>
+            <ion-badge color="white">300 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Camarões</ion-label>
+            <ion-badge color="white">4</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Polpa de tomate</ion-label>
+            <ion-badge color="white">200 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Tomate pelado picado</ion-label>
+            <ion-badge color="white">150 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Cebola</ion-label>
+            <ion-badge color="white">1</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Dentes de alho</ion-label>
+            <ion-badge color="white">2</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Azeite</ion-label>
+            <ion-badge color="white">50 ml</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Folha de louro</ion-label>
+            <ion-badge color="white">1</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Coentros</ion-label>
+            <ion-badge color="white">q.b.</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Sal e piripiri</ion-label>
+            <ion-badge color="white">q.b.</ion-badge>
+          </ion-item>
+        </ion-list>
+
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="hand-right-outline"></ion-icon> Preparação</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+          <p><b>1.</b> Leve ao lume um tacho com o azeite, a cebola e os dentes de alho picados e refogue. Junte a folha de louro, um ramo de coentros, a polpa de tomate e o tomate picado e deixe refogar bem.</p>
+          <p><b>2.</b> Adicione 1,2 l de água, tempere com sal e, quando estiver a ferver, acrescente os mariscos, previamente descongelados, e deixe ferver novamente.</p>
+          <p><b>3.</b> Junte o arroz, mexa, retifique o sal e tempere com um pouco de piripíri. Deixe cozinhar, durante cerca de 15 a 18 minutos. Retire do lume e sirva de imediato, polvilhado com coentros picados.</p>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="analytics-outline"></ion-icon> Dicas e Truques</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+        
+       <p>O arroz deve ser cozinhado no caldo de marisco até ficar al dente. É importante não deixar o arroz cozinhar demais para evitar que se torne papa.</p>
+       <p>Uma salada simples e refrescante que contrasta com a riqueza do arroz de marisco.</p>
+        <p>Um vinho branco leve e aromático complementa perfeitamente a complexidade dos sabores do prato.</p>
+
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
+
+
+</ion-content>

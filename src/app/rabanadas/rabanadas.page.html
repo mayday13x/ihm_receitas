@@ -14,12 +14,90 @@
     </ion-toolbar>
   </ion-header>
 
+ <img src="/assets/images/rabana.png" class="receita-pic" alt="Miguel" style="width:100%">
 
-  <img src="/assets/images/rabana.png" class="profile-pic" alt="Miguel" style="width:100%">
-  <ion-label>Ingredientes</ion-label>
+  <div class="history-intro">
+    <ion-title class="ion-text-center ion-padding-top">Contextualização Histórica</ion-title>
+    <p><b>Origem:</b> Início da década de 1950, no restaurante "Maravilha da Praia", na Póvoa de Varzim, Portugal.</p>
+    <p><b>Curiosidade:</b> A receita foi criada por um cozinheiro chamado José Ribeiro,
+      que a inventou para aproveitar o pão que sobrava do dia anterior.</p>
+    <p><b>Significado:</b> Criatividade, engenhosidade, património cultural da Póvoa de Varzim.<p>
+  </div>
 
 
+  <div class="ion-text-center info-receita"><h5>1hora + tempo para repousar</h5></div>
+  <div class="ion-text-center info-receita">6 pessoas</div>
+  <ion-accordion-group expand="inset" [value]="['first']">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="fast-food-outline"></ion-icon> Ingredientes </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
 
+        <ion-list>
+          <ion-item>
+            <ion-label>Açúcar</ion-label>
+            <ion-badge color="white">250 g</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Pão (tipo biju)</ion-label>
+            <ion-badge color="white">6</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Ovos M</ion-label>
+            <ion-badge color="white">12</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Leite</ion-label>
+            <ion-badge color="white">1L</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Pau de canela</ion-label>
+            <ion-badge color="white">2</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Casca de limão</ion-label>
+            <ion-badge color="white">1</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Mel</ion-label>
+            <ion-badge color="white">q.b</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Açúcar e canela em pó</ion-label>
+            <ion-badge color="white">q.b</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Óleo para fritar</ion-label>
+          </ion-item>
+        </ion-list>
+
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="hand-right-outline"></ion-icon> Preparação</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+          <p><b>1.</b> Num tacho, deite o leite, o açúcar, os paus de canela, a casca de limão e um pouco de mel e misture tudo com uma vara de arames. Leve ao lume, deixe ferver, retire e deixe arrefecer um pouco.</p>
+          <p><b>2.</b> À parte, bata ligeiramente os ovos com uma vara de arames e junte metade ao leite. Reserve.</p>
+          <p><b>3.</b> Retire a côdea ao pão e deite o miolo inteiro no preparado anterior. Deixe repousar durante cerca de 30 minutos. Após o tempo indicado, esprema-o e dê-lhe uma forma arredondada.</p>
+          <p><b>4.</b> Passe pelos restantes ovos batidos e leve a fritar em óleo abundante. Retire, deixe escorrer sobre papel absorvente e passe por uma mistura de açúcar e canela. Sirva de seguida.</p>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="app">
+        <ion-label><ion-icon name="analytics-outline"></ion-icon> Dicas e Truques</ion-label>
+      </ion-item>
+      <div class="ion-padding history-intro" slot="content">
+        
+       <p><b>Variações:</b> Raspas de limão, laranja, noz-moscada.</p>
+       <p><b>Acompanhamento:</b> Café ou chá quente.</p>
+
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
 
 
 </ion-content>

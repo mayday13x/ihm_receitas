@@ -1,0 +1,7 @@
+{
+  "name": "receitaspvz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

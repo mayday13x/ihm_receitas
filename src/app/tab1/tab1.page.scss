@@ -1,0 +1,60 @@
+.card {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.profile-pic {
+    //clip-path: circle(30% at 50% 40%);
+    //border-radius: 4px;
+    box-shadow: 0px 5px var(--ion-color-app);
+    max-height: fit-content;
+}
+
+
+.links a{
+ padding: 10px;
+}
+
+.profile-about {
+  padding: 15px;
+}
+
+.keyword {
+  background-color: var(--ion-color-tertiary  );
+  color:white;
+  text-align: center;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.dev-icons ion-icon{
+  padding: 6px;
+}
